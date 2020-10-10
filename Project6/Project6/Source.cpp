@@ -7,7 +7,7 @@ int main() {
 	int flag;
 	cin >> flag;
 	//cout << '\n';
-	const int x = 5, y = 5;
+	const int x = 10, y = 10;
 	int a[x][y];
 	int counter = 0;
 	for (int i = 0; i < x; i++) {
@@ -16,14 +16,12 @@ int main() {
 				a[i][j] = counter;
 				counter++;
 			}
-			cout << endl;
 		}
 		else {
 			for (int j = (y - 1); j >= 0; j--) {
 				a[i][j] = counter;
 				counter++;
 			}
-			cout << endl;
 		}
 	}
 	for (int i = 0; i < x; i++) {
